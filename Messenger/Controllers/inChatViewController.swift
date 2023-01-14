@@ -6,24 +6,52 @@
 //
 
 import UIKit
+import SwiftUI
 
 class inChatViewController: UIViewController {
 
+    private let scrollView: UIScrollView = {
+        let scrollView = UIScrollView()
+        scrollView.clipsToBounds = true
+        return scrollView
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    struct ContentView: View {
+        @StateObject var messagesManager = MessagesManager()
+        
+        var body: some View {
+            VStack {
+                VStack {
+                    TitleRow()
+                    
+                    ScrollView {
+                        ForEach(messagesManager.messages, id: \.id) { message in
+                            MessageBubble(message: message)
+                        }
+                    }
+                    .padding(.top, 20)
+                    .background(.white)
+                    .cornerRadius(30, corners: [.topLeft, .topRight])
+                }
+                .background(Color(UIColor(rgb: 0x87E7FF)))
+                
+                MessageField()
+                    .environmentObject(messagesManager)
+            }
+        }
     }
-    */
+    
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
+    }
 
 }
