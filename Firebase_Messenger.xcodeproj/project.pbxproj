@@ -19,6 +19,7 @@
 		199F6309296739F000C64334 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199F6308296739F000C64334 /* VideoPlayerViewController.swift */; };
 		199F630B29673A3700C64334 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199F630A29673A3700C64334 /* NewConversationViewController.swift */; };
 		199F630D29673A4A00C64334 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199F630C29673A4A00C64334 /* ProfileViewController.swift */; };
+		199F63102968206200C64334 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199F630F2968206200C64334 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		199F6308296739F000C64334 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		199F630A29673A3700C64334 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		199F630C29673A4A00C64334 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		199F630F2968206200C64334 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				199F62E829672F9600C64334 /* AppDelegate.swift */,
 				199F62EA29672F9600C64334 /* SceneDelegate.swift */,
+				199F630F2968206200C64334 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -113,9 +116,8 @@
 		199F6300296734D700C64334 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				199F630E2968161800C64334 /* Login */,
 				199F62EC29672F9600C64334 /* ConversationsViewController.swift */,
-				199F63022967387100C64334 /* LoginViewController.swift */,
-				199F63042967388000C64334 /* RegisterViewController.swift */,
 				199F6306296739DB00C64334 /* PhotoViewerViewController.swift */,
 				199F6308296739F000C64334 /* VideoPlayerViewController.swift */,
 				199F630A29673A3700C64334 /* NewConversationViewController.swift */,
@@ -131,6 +133,15 @@
 				199F62F329672F9800C64334 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		199F630E2968161800C64334 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				199F63022967387100C64334 /* LoginViewController.swift */,
+				199F63042967388000C64334 /* RegisterViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +220,7 @@
 				199F630B29673A3700C64334 /* NewConversationViewController.swift in Sources */,
 				199F62ED29672F9600C64334 /* ConversationsViewController.swift in Sources */,
 				199F6309296739F000C64334 /* VideoPlayerViewController.swift in Sources */,
+				199F63102968206200C64334 /* Extensions.swift in Sources */,
 				199F62E929672F9600C64334 /* AppDelegate.swift in Sources */,
 				199F630D29673A4A00C64334 /* ProfileViewController.swift in Sources */,
 				199F62EB29672F9600C64334 /* SceneDelegate.swift in Sources */,
@@ -364,6 +376,7 @@
 				DEVELOPMENT_TEAM = 2V5C5VNP5P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Messenger/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Firebase_Messenger;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -392,6 +405,7 @@
 				DEVELOPMENT_TEAM = 2V5C5VNP5P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Messenger/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Firebase_Messenger;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
