@@ -74,12 +74,39 @@
         }
       },
       {
+        "package": "InputBarAccessoryView",
+        "repositoryURL": "https://github.com/nathantannar4/InputBarAccessoryView",
+        "state": {
+          "branch": null,
+          "revision": "039a9cb3ae8c5bc4d39242a6aa688b88023633d3",
+          "version": "6.2.0"
+        }
+      },
+      {
+        "package": "JGProgressHUD",
+        "repositoryURL": "https://github.com/JonasGessner/JGProgressHUD.git",
+        "state": {
+          "branch": null,
+          "revision": "78d7cd35f1d90ff74fd82e486f2cbe4b24be8cf9",
+          "version": "2.2.0"
+        }
+      },
+      {
         "package": "leveldb",
         "repositoryURL": "https://github.com/firebase/leveldb.git",
         "state": {
           "branch": null,
           "revision": "0706abcc6b0bd9cedfbb015ba840e4a780b5159b",
           "version": "1.22.2"
+        }
+      },
+      {
+        "package": "MessageKit",
+        "repositoryURL": "https://github.com/MessageKit/MessageKit",
+        "state": {
+          "branch": null,
+          "revision": "f3f61ebbc9c56533700c2e7b5742682849cc314d",
+          "version": "4.0.0"
         }
       },
       {
@@ -98,6 +125,33 @@
           "branch": null,
           "revision": "afa9a1ace74e116848d4f743599ab83e584ff8cb",
           "version": "1.2.12"
+        }
+      },
+      {
+        "package": "RealmCore",
+        "repositoryURL": "https://github.com/realm/realm-core",
+        "state": {
+          "branch": null,
+          "revision": "66d79b3c5213fb14d491c1b22193077b488d49a6",
+          "version": "6.2.4"
+        }
+      },
+      {
+        "package": "Realm",
+        "repositoryURL": "https://github.com/realm/realm-swift.git",
+        "state": {
+          "branch": null,
+          "revision": "2dce752b48c3265c63ab04a8c66ddfdf9185f847",
+          "version": "5.5.2"
+        }
+      },
+      {
+        "package": "SDWebImage",
+        "repositoryURL": "https://github.com/SDWebImage/SDWebImage.git",
+        "state": {
+          "branch": null,
+          "revision": "4178d12a44691182c2eb79c70281b14cb73f4cbf",
+          "version": "5.14.3"
         }
       },
       {
